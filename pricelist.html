@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.">
+  <title>Dropdown Menu with Search Box</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper" style="background: linear-gradient(rgba(5, 21, 238, 0.7), rgba(0, 224, 254, 0.7)) ; z-index: 1000">
+
+    <nav >
+      <div class="content">
+        <div class="logo">
+          <a href="#">
+            <img src="dvs.png" alt="">
+          </a>
+        </div>
+        <ul class="links">
+          <li><a href="http://localhost/projek KP (pt.datavisualsolution)/index.html">Home</a></li>
+          <li><a href="#">All Product</a></li>
+          <li>
+            <a href="#" class="desktop-link">Categories</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Categori</label>
+            <ul>
+              <li><a href="#pc">PC</a></li>
+              <li><a href="#laptop">Laptop</a></li>
+              <li><a href="#printer">Printer</a></li>
+              <li><a href="#accesories">Accessories</a></li>
+              <li><a href="#televisi">TV</a></li>
+              <li><a href="#projector">Projector</a></li>
+              <li><a href="#screen">Screen</a></li>
+              <li><a href="#led">LED</a></li>
+              <li><a href="#ss">Sound System</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      
+      </form>
+    </nav>
+  </div>
+    <div id="pc" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            
+                <h2>ALL IN ONE PC</h2>
+                <div class="list">
+                    <div class="item" data-key="1">
+                        <div class="img">
+                            <img src="img/pc1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">All In One PC HP Q162D</div>
+                            <div class="specs">
+                                <h6>Processor : Intel Core i7 Gen 6</h6>
+                                <h6>RAM : 8 GB</h6>
+                                <h6>Storage : SDD</h6>
+                                <h6>Price : Rp. 450.000</h6>
+                            </div>
+                        </div>
+                        <button class="custom-button" onclick="isiNamaBarang('All In One PC HP Q162D', 'Processor : Intel Core i7 Gen 6, RAM : 8 GB, Storage : SDD', 'Price : Rp. 450.000')">Beli Sekarang</button>
+                    </div>
+
+                    <div class="item" data-key="1">
+                        <div class="img">
+                        <img src="img/pc2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">All In One PC HP R011D</div>
+                            <div class="specs">
+                                <h6>Processor : Inter Core i7 Gen 7</h6>
+                                <h6>RAM : 8 GB</h6>
+                                <h6>Storage : SDD</h6>
+                                <h6>Price : Rp. 450.000</h6>
+                            </div>
+                        </div>
+                        <button class="custom-button" onclick="isiNamaBarang('All In One PC HP R011D', 'Processor : Inter Core i7 Gen 7, RAM : 8 GB, Storage : SDD', 'Price : Rp. 450.000')">Beli Sekarang</button>
+                    </div>
+
+                    <div class="item" data-key="1">
+                        <div class="img">
+                            <img src="img/pc1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">All In One PC HP R011D
+                            </div>
+                            <div class="specs">
+                                <h6>Processor : Inter Core i7 Gen 7</h6>
+                                <h6>Monitor : Touch Screen</h6>
+                                <h6>RAM : 8 GB</h6>
+                                <h6>Storage : SDD</h6>
+                                <h6>Price : Rp. 500.000</h6>
+                            </div>
+                            </div>
+                            <button class="custom-button" onclick="isiNamaBarang('All In One PC HP R011D', 'Monitor : Touch Screen', 'Processor : Inter Core i7 Gen 7, RAM : 8 GB, Storage : SDD', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                    </div>
+                    
+                    <div class="item" data-key="1" >
+                        <div class="img">
+                            <img src="img/pc1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">All In One PC HP R011D</div>
+                            <div class="specs">
+                                <h6>Processor : Inter Core i7 Gen 7</h6>
+                                <h6>RAM : 16 GB</h6>
+                                <h6>Storage : SDD</h6>
+                                <h6>Price : Rp. 600.000</h6>
+                            </div>
+                        </div>
+                        <button class="custom-button" onclick="isiNamaBarang('All In One PC HP R011D', 'Monitor : Touch Screen', 'Processor : Inter Core i7 Gen 7, RAM : 8 GB, Storage : SDD', 'Price : Rp. 600.000')">Beli Sekarang</button>
+                    </div>
+                    <div class="item" data-key="1">
+                        <div class="img">
+                        <img src="img/monitor1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="title">All In One PC HP Q162D</div>
+                            <div class="des">
+                                <h6>Power : Type C Screen</h6>
+                                <h6>Resolution : 1080P Full HD</h6>
+                                <h6>Input : Mini HDMI</h6>
+                                <h6>Price : Rp. 500.000</h6>
+                            </div>
+                        </div>
+                        <button class="custom-button" onclick="isiNamaBarang('All In One PC HP Q162D', 'Power : Type C Screen', 'Resolution : 1080P Full HD', 'Input : Mini HDMI', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="laptop" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            <h1 class="display-4">LAPTOP</h1>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/laptop1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Laptop MSI GF63 10SCSR</div>
+                        <div class="des">
+                            <h6>Processor : Inter Core i7 Gen 10</h6>
+                            <h6>RAM : 32 GB</h6>
+                            <h6>Storage : SDD</h6>
+                            <h6>Price : Rp. 700.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Laptop MSI GF63 10SCSR', 'Processor : Inter Core i7 Gen 10', 'RAM : 32 GB', 'Storage : SDD', 'Price : Rp. 700.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/laptop2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Laptop HP</div>
+                        <div class="des">
+                            <h6>Processor : Inter Core i7 Gen 7</h6>
+                            <h6>RAM : GB</h6>
+                            <h6>Storage : SDD</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Laptop HP', 'Processor : Inter Core i7 Gen 7', 'RAM : GB', 'Storage : SDD', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/laptop3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Laptop Lenovo IdeaPad Slim 3i</div>
+                        <div class="des">
+                            <h6>Processor : Inter Core i7 Gen 10</h6>
+                            <h6>RAM : 16 GB</h6>
+                            <h6>Storage : SDD</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Laptop Lenovo IdeaPad Slim 3i', 'Processor : Inter Core i7 Gen 10', 'RAM : 16 GB', 'Storage : SDD', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/laptop4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">PC Tower HP</div>
+                        <div class="des">
+                            <h6>Processor : Inter Core i3</h6>
+                            <h6>RAM : 4 GB</h6>
+                            <h6>Storage : HDD</h6>
+                            <h6>Price : Rp. 200.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('PC Tower HP', 'Processor : Inter Core i7 Gen i3', 'RAM : 4 GB', 'Storage : HDD', 'Price : Rp. 200.000')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="printer" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            <h1 class="display-4">PRINTER</h1>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HP LaserJet Pro M1212nf MFP</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 18 ppm</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HP LaserJet Pro M1212nf MFP', 'Input : USB', 'PPM : Up to 18 ppm', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HP LaserJet M1132 MFP</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 18 ppm</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HP LaserJet M1132 MFP', 'Input : USB', 'PPM : Up to 18 ppm', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HP Laser Jet Pro MFP m182N Multifunction Color</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 16 ppm</h6>
+                            <h6>Price : Rp. 700.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HP Laser Jet Pro MFP m182N Multifunction Color', 'Input : USB', 'PPM : Up to 16 ppm', 'Price : Rp. 700.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HP Laser Jet Pro MFP m180N Multifunction Color</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 16 ppm</h6>
+                            <h6>Price : Rp. 700.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HP Laser Jet Pro MFP m180N Multifunction Color', 'Input : USB', 'PPM : Up to 16 ppm', 'Price : Rp. 700.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HP LaserJet Colour AIO M283FDN</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 21 ppm</h6>
+                            <h6>Price : Rp. 850.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HP LaserJet Colour AIO M283FDN', 'Input : USB', 'PPM : Up to 21 ppm', 'Price : Rp. 850.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Hp Laser Jet Color M452nw</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 28 ppm</h6>
+                            <h6>Price : Rp. 1.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Hp Laser Jet Color M452nw', 'Input : USB', 'PPM : Up to 28 ppm', 'Price : Rp. 1.000.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/printer7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HP Color LaserJet MFP E47528</div>
+                        <div class="des">
+                            <h6>Input : USB</h6>
+                            <h6>PPM : Up to 29 ppm</h6>
+                            <h6>Price : Rp. 1.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HP Color LaserJet MFP E47528', 'Input : USB', 'PPM : Up to 29 ppm', 'Price : Rp. 1.000.000')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="accesories" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+        <h2>ACCESSORIES</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">TP Link Switch HUB 24 Port Gigabit</div>
+                        <div class="des">
+                            <h6>Input : LAN Cable</h6>
+                            <h6>Output : LAN Cable 24 Port</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('TP Link Switch HUB 24 Port Gigabit', 'Input : LAN Cable', 'Output : LAN Cable 24 Port', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">TP Link Switch HUB 16 Port Gigabit</div>
+                        <div class="des">
+                            <h6>Input : LAN Cable</h6>
+                            <h6>Output : LAN Cable 16 Port</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('TP Link Switch HUB 16 Port Gigabit', 'Input : LAN Cable', 'Output : LAN Cable 16 Port', 'Price : Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">TP Link Switch HUB 8 Port Gigabit</div>
+                        <div class="des">
+                            <h6>Input : LAN Cable</h6>
+                            <h6>Output : LAN Cable 8 Port</h6>
+                            <h6>Price : Rp. 250.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('TP Link Switch HUB 8 Port Gigabit', 'Input : LAN Cable', 'Output : LAN Cable 16 Port', 'Price : Rp. 250.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">UPS Prolink 1200 SV</div>
+                        <div class="des">
+                            <h6>Kategori : Interactive UPS 1200VA with AVR</h6>
+                            <h6>Price : Rp. 250.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('UPS Prolink 1200 SV', 'Kategori : Interactive UPS 1200VA with AVR', 'Price : Rp. 250.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Perfect Cue/Master Cue</div>
+                        <div class="des">
+                            <h6>Kategori : Networks Tools for Presentation</h6>
+                            <h6>Price : Rp. 1.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Perfect Cue/Master Cue','Kategori : Networks Tools for Presentation', 'Price : Rp. 1.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Clicker Logitech</div>
+                        <div class="des">
+                            <h6>Kategori : Laser Pointer for Presentation</h6>
+                            <h6>Price : Rp. 250.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Clicker Logitech', 'Kategori : Networks Tools for Presentation', 'Price : Rp. 250.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Raw Capture Card</div>
+                        <div class="des">
+                            <h6>Input : HDMI Cable</h6>
+                            <h6>Output : HDMI Cable</h6>
+                            <h6>Price : Rp. 200.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Raw Capture Card', 'Input : HDMI Cable', 'Output : JDMI Cable 16 Port', 'Price : Rp. 200.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Sound Card Behringer</div>
+                        <div class="des">
+                            <h6>Kategori : Soundcard Recording</h6>
+                            <h6>Price : Rp. 300.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Sound Card Behringer', 'Kategori : Networks Tools for Presentation', 'Price : Rp. 300.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Flip Chart</div>
+                        <div class="des">
+                            <h6>Kategori : Papan Tulis</h6>
+                            <h6>Price : Rp. 150.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Flip Chart', 'Kategori : Papan Tulis', 'Price : Rp. 150.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SPEAKER GANTUNG - EV-4,2W (100VAC)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SPEAKER GANTUNG - EV-4,2W (100VAC)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories11.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SUB EV -12,1 (350 WATT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SUB EV -12,1 (350 WATT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories12.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SHURE GOOSENECK</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SHURE GOOSENECK', 'Input : Cable XLR', 'Output : Cable XLR', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories13.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">BOSCH DELEGATE MIC</div>
+                        <div class="des">
+                            <h6>Input : Cable XL</h6>
+                            <h6>Output : Cable XLR</h6>
+                            <h6>Price : Rp. 200.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('BOSCH DELEGATE MIC', 'Input : Cable XL', 'Output : Cable XLR', 'Price : Rp. 200.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories14.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">MIC HEADSET</div>
+                        <div class="des">
+                            <h6>Input : Wireless</h6>
+                            <h6>Output : Wireless</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('MIC HEADSET', 'Input : Wireless', 'Output : Wireless', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories15.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SHURE WIRELESS MIC</div>
+                        <div class="des">
+                            <h6>Input : Wireless</h6>
+                            <h6>Output : Wireless</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SHURE WIRELESS MIC', 'Input : Wireless', 'Output : Wireless', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories16.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">QA ELECTRONICS WIRELESS MIC</div>
+                        <div class="des">
+                            <h6>Input : Wireless</h6>
+                            <h6>Output : Wireless</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('QA ELECTRONICS WIRELESS MIC', 'Input : Wireless', 'Output : Wireless', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories17.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">NAKAMICHI WIRELESS MIC</div>
+                        <div class="des">
+                            <h6>Input : Wireless</h6>
+                            <h6>Output : Wireless</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('NAKAMICHI WIRELESS MIC', 'Input : Wireless', 'Output : Wireless', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories18.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SHURE PGX4</div>
+                        <div class="des">
+                            <h6>Input : Wireless</h6>
+                            <h6>Output : Wireless</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SHURE PGX4', 'Input : Wireless', 'Output : Wireless', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories19.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">CABLE MIC 05</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                            <h6>Price : Rp. 350.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('CABLE MIC 05', 'Input : Cable XLR', 'Output : Cable XLR', 'Price : Rp. 350.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories20.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SHURE MIC CABLE 57</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                            <h6>Price : Rp. 250.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SHURE MIC CABLE 57', 'Input : Cable XLR', 'Output : Cable XLR', 'Price : Rp. 250.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories21.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SHURE MIC CABLE 58</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                            <h6>Price : Rp. 250.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SHURE MIC CABLE 58', 'Input : Cable XLR', 'Output : Cable XLR', 'Price : Rp. 250.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories22.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SPEAKER KABEL 32 -KREZT-ACE2832(28C-40VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SPEAKER KABEL 32 -KREZT-ACE2832(28C-40VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories23.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">KABEL ROMBE -KREZT (24 CHANNEL)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('KABEL ROMBE -KREZT (24 CHANNEL)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories24.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">KABEL USB DL -KABEL LINK</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('KABEL USB DL -KABEL LINK', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories25.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">KABEL LISTRIK</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('KABEL LISTRIK', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/accessories26.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">DC MIDAS - DL32 (32 CHANNEL)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('DC MIDAS - DL32 (32 CHANNEL)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="televisi" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div  class="container">
+        <h2>TELEVISI</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SAMSUNG LED 32” 32J4100</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite</h6>
+                            <h6>Resolusi : 1366 x 768 Pixel</h6>
+                            <h6>Price : Rp. 400.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SAMSUNG LED 32” 32J4100', 'Input : HDMI, USB, Composite', 'Resolusi : 1366 x 768 Pixel', 'Price: Rp. 400.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SAMSUNG SMART LED TV 40” AU40F5500M</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, LAN</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SAMSUNG SMART LED TV 40” AU40F5500M', 'Input : HDMI, USB, Composite, LAN', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LG LCD 42” 42PA4500</div>
+                        <div class="des">
+                            <h6>Input : HDMI, VGA, USB, Composite</h6>
+                            <h6>Resolusi : 1024 x 768 Pixel</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LG LCD 42” 42PA4500', 'Input : HDMI, VGA, USB, Composite', 'Resolusi : 1024 x 768 Pixel', 'Price: Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LG LED TV 43” 43LV-300C</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LG LED TV 43” 43LV-300C', 'Input : HDMI, VGA, USB, Composite', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LG LED 50” 50LN5400</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 1.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LG LED 50” 50LN5400', 'Input : HDMI, VGA, USB, Composite', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 1.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LG LED TV 55” 55LV-340C</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 2.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LG LED TV 55” 55LV-340C', 'Input : HDMI, VGA, USB, Composite', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 2.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SAMSUNG SMART TV 55” 55H6203</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, LAN</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 2.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SAMSUNG SMART TV 55” 55H6203', 'Input : HDMI, USB, Composite, LAN', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 2.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SAMSUNG SMART TV 65” UA65KU6000KPXD</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, LAN</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 3.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SAMSUNG SMART TV 65” UA65KU6000KPXD', 'Input : HDMI, USB, Composite, LAN', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 3.000.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">NEC LCD TV 65” L650U-9</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, VGA</h6>
+                            <h6>Resolusi : 1024 x 768 Pixel</h6>
+                            <h6>Price : Rp. 2.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('NEC LCD TV 65” L650U-9', 'Input : HDMI, USB, Composite, VGA', 'Resolusi : 1024 x 768 Pixel', 'Price: Rp. 2.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">NEC LED TV 80” V801</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, VGA</h6>
+                            <h6>Resolusi : 1920 x 1080 Pixel</h6>
+                            <h6>Price : Rp. 8.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('NEC LED TV 80” V801', 'Input : HDMI, USB, Composite, VGA', 'Resolusi : 1920 x 1080 Pixel', 'Price: Rp. 8.000.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv11.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LG SMART TV 3D 4K UHD 84” 84UB980T</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, LAN, WiFi</h6>
+                            <h6>Resolusi : 3840 x 2160 Pixel</h6>
+                            <h6>Price : Rp. 9.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LG SMART TV 3D 4K UHD 84” 84UB980T', 'Input : HDMI, USB, Composite, LAN, WiFi', 'Resolusi : 3840 x 2160 Pixel', 'Price: Rp. 9.000.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/tv12.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LG SMART TV 3D 4K UHD 84” 84LA9800</div>
+                        <div class="des">
+                            <h6>Input : HDMI, USB, Composite, LAN, WiFi</h6>
+                            <h6>Resolusi : 3840 x 2160 Pixel</h6>
+                            <h6>Price : Rp. 8.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LG SMART TV 3D 4K UHD 84” 84LA9800', 'Input : HDMI, USB, Composite, LAN, WiFi', 'Resolusi : 3840 x 2160 Pixel', 'Price: Rp. 8.000.000')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projector" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            <h2>PROJECTOR</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/projector1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">PANASONIC LCD PROJECTOR 4500 ANSI LUMENS PTVX420ZA</div>
+                        <div class="des">
+                            <h6>Input : HDMI, VGA, Video</h6>
+                            <h6>Resolusi : 1024 x 768 Pixel</h6>
+                            <h6>Price : Rp. 2.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('PANASONIC LCD PROJECTOR 4500 ANSI LUMENS PTVX420ZA', 'Input : HDMI, VGA, Video', 'Resolusi : 1024 x 768 Pixel', 'Price: Rp. 2.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/projector2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">PANASONIC LCD PROJECTOR 6000 ANSI LUMENS FULL HD PT-DZ6700E</div>
+                        <div class="des">
+                            <h6>Input : VGA, DVI-D, Video, RGBHV, LAN</h6>
+                            <h6>Resolusi : 1920 x 1200 Pixel</h6>
+                            <h6>Price : Rp. 6.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('PANASONIC LCD PROJECTOR 6000 ANSI LUMENS FULL HD PT-DZ6700E', 'VGA, DVI-D, Video, RGBHV, LAN', 'Resolusi : 1920 x 1200 Pixel', 'Price: Rp. 6.000.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/projector3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">PANASONIC LCD PROJECTOR 10.000 ANSI LUMENS LASER FULL HD PT-RZ970BA</div>
+                        <div class="des">
+                            <h6>Input : SDI, RGB, DVI-D, HDMI, LAN</h6>
+                            <h6>Resolusi : 1920 x 1200 Pixel</h6>
+                            <h6>Price : Rp. 10.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('PANASONIC LCD PROJECTOR 10.000 ANSI LUMENS LASER FULL HD PT-RZ970BA', 'SDI, RGB, DVI-D, HDMI, LAN', 'Resolusi : 1920 x 1200 Pixel', 'Price: Rp. 10.000.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/projector4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">PANASONIC LCD PROJECTOR 20.000 ANSI LUMENS LASER FULL HD PT-DZ21KE</div>
+                        <div class="des">
+                            <h6>Input : VGA, RGBHV, Video, HDMI, DVI-D, SDI, LAN</h6>
+                            <h6>Resolusi : 1920 x 1200 Pixel</h6>
+                            <h6>Price : Rp. 25.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('PANASONIC LCD PROJECTOR 20.000 ANSI LUMENS LASER FULL HD PT-DZ21KE', 'VGA, RGBHV, Video, HDMI, DVI-D, SDI, LAN', 'Resolusi : 1920 x 1200 Pixel', 'Price: Rp. 25.000.000')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            <h2>SCREEN</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/screen1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Screen Tripod 100 Inch</div>
+                        <div class="des">
+                            <h6>Rear/Front : Front</h6>
+                            <h6>Price : Rp. 250.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Screen Tripod 100 Inch', 'Price: Rp. 250.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/screen2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Screen 2x3 meter</div>
+                        <div class="des">
+                            <h6>Rear/Front : Rear</h6>
+                            <h6>Price : Rp. 500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Screen 2x3 meter', 'Price: Rp. 500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/screen3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Screen 4x3 meter</div>
+                        <div class="des">
+                            <h6>Rear/Front : Rear</h6>
+                            <h6>Price : Rp. 700.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('Screen 4x3 meter', 'Price: Rp. 500.000')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="led" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            <h2>LED</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/led_panel1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LED Indoor P2.5 mm InfiLED</div>
+                        <div class="des">
+                            <h6>Brand : infiLED</h6>
+                            <h6>Size Cabinet : 50 x 50 Cm</h6>
+                            <h6>Resolusi : 200 x 200 Pixel</h6>
+                            <h6>Price : Rp. 1.500.000/meter</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LED Indoor P2.5 mm InfiLED', 'Brand : infiLED', 'Size Cabinet : 50 x 50 Cm', 'Resolusi : 200 x 200 Pixel','Price: Rp. 1.500.000/meter')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/led_panel2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LED Indoor/Outdoor P2.6m YesTech</div>
+                        <div class="des">
+                            <h6>Brand : YesTech</h6>
+                            <h6>Size Cabinet : 50 x 50 Cm</h6>
+                            <h6>Resolusi : 192 x 192 Pixel</h6>
+                            <h6>Price : Rp. 1.500.000/meter</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LED Indoor/Outdoor P2.6m YesTech', 'Brand : YesTech', 'Size Cabinet : 50 x 50 Cm', 'Resolusi : 192 x 192 Pixel','Price: Rp. 1.500.000/meter')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/led_panel3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LED Indoor/Outdoor P2.9mm Unilumin</div>
+                        <div class="des">
+                            <h6>Brand : Unilumin</h6>
+                            <h6>Size Cabinet : 50 x 50 Cm</h6>
+                            <h6>Resolusi : 168 x 168 Pixel</h6>
+                            <h6>Price : Rp. 1.000.000/meter</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LED Indoor/Outdoor P2.9mm Unilumin', 'Brand : Unilumin', 'Size Cabinet : 50 x 50 Cm', 'Resolusi : 168 x 168 Pixel','Price: Rp. 1.000.000/meter')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/led_panel4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LED Indoor P3.9mm Unilumin</div>
+                        <div class="des">
+                            <h6>Brand : Unilumin</h6>
+                            <h6>Size Cabinet : 50 x 50 Cm</h6>
+                            <h6>Resolusi : 128 x 128 Pixel</h6>
+                            <h6>Price : Rp. 900.000/meter</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LED Indoor P3.9mm Unilumin', 'Brand : Unilumin', 'Size Cabinet : 50 x 50 Cm', 'Resolusi : 128 x 128 Pixel','Price: Rp. 900.000/meter')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/led_panel5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">LED Indoor/Outdoor P4.8mm Unilumin</div>
+                        <div class="des">
+                            <h6>Brand : Unilumin</h6>
+                            <h6>Size Cabinet : 50 x 50 Cm</h6>
+                            <h6>Resolusi : 104 x 104 Pixel</h6>
+                            <h6>Price : Rp. 800.000/meter</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('LED Indoor/Outdoor P4.8mm Unilumin', 'Brand : Unilumin', 'Size Cabinet : 50 x 50 Cm', 'Resolusi : 104 x 104 Pixel','Price: Rp. 800.000/meter')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ss" class="jumbotron jumbotron-fluid" style="padding-top: 100px;">
+        <div class="container">
+            <h2>SOUND SYSTEM</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SPEAKER MONITOR-DB TET-BHYPE12 (250VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SPEAKER MONITOR-DB TET-BHYPE12 (250VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SPEAKER MONITOR-DB TET-FLEXSY512 (250VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SPEAKER MONITOR-DB TET-FLEXSY512 (250VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SPEAKER SRM-MACKIE-SRM450 (300VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SPEAKER SRM-MACKIE-SRM450 (300VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SPEAKER JBL (230VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SPEAKER JBL (230VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SUB CODA -G18SUB (5000 VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SUB CODA -G18SUB (5000 VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">CORAY 4 CODA - CODA - CORAY 4 (2000VOLT)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('CORAY 4 CODA - CODA - CORAY 4 (2000VOLT)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">DB TEC -FLEXSYS315 - F315 (1000W)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('DB TEC -FLEXSYS315 - F315 (1000W)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SIGMA -DBTEC- S 215 (1400 W)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('SIGMA -DBTEC- S 215 (1400 W)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">JBL HANGING BRX 300 SERIES</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('JBL HANGING BRX 300 SERIES', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">HK SUB - E210 SUB HS (1200 W)</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Cable XLR</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('HK SUB - E210 SUB HS (1200 W)', 'Input : Cable XLR', 'Output : Cable XLR')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system11.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">MIXER DIGITAL-MIDAS32 LIVE</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Master/Aux/Grup/Matrix</h6>
+                            <h6>Price : Rp. 2.500.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('MIXER DIGITAL-MIDAS32 LIVE', 'Input : Cable XLR', 'Output : Cable XLR', 'Price : Rp. 2.500.000')">Beli Sekarang</button>
+                </div>
+
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="img/sound_system12.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">MIXER DIGITAL-MIDAS16 LIVE</div>
+                        <div class="des">
+                            <h6>Input : Cable XLR</h6>
+                            <h6>Output : Master/Aux/Grup/Matrix</h6>
+                            <h6>Price : Rp. 2.000.000</h6>
+                        </div>
+                    </div>
+                    <button class="custom-button" onclick="isiNamaBarang('MIXER DIGITAL-MIDAS16 LIVE', 'Input : Cable XLR', 'Output : Cable XLR', 'Price : Rp. 2.000.000')">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="py-4">
+        <div class="container" style="background:linear-gradient(rgba(5, 21, 238, 0.7), rgba(0, 224, 254, 0.7)) ; padding-top: 50px;
+        padding-bottom: 50px;">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0">Copyright 2022 <a href="//DataVisualSolution.com/">DataVisualSolution</a> | All Rights Reserved</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div>
+                <a href="https://www.youtube.com/channel/UC-VFxRrMdrxM7ZMTHds8PgA"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.instagram.com/datavisualsolution/"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        function isiNamaBarang(namaBarang, spesifikasi) {
+            // Mengatur nilai nama produk dan spesifikasi di halaman form
+            window.location.href = `http://localhost/projek KP (pt.datavisualsolution)/form/index.html?product=${namaBarang}&specs=${spesifikasi}`;
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+    
+    </body>
+</html>
